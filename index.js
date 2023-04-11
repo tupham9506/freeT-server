@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 const axios = require('axios')
-app.get('/simsimi', async function (req, res) {
+app.post('/simsimi', async function (req, res) {
   const response = await axios('https://api.simsimi.vn/v1/simtalk', {
       method: "POST",
       headers: {
