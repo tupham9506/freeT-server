@@ -9,7 +9,6 @@ app.get('/simsimi', async function (req, res) {
       },
       body: `text=${req.body.text}&lc=vn&key=`
     })
-    console.log(response);
   res.send(response);
 });
 app.listen(3000, function () {
