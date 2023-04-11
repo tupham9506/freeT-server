@@ -11,6 +11,6 @@ app.get('/simsimi', async function (req, res) {
     })
   res.send(response);
 });
-app.listen(3000, function () {
+app.listen(443, function () {
   console.log('Example app listening on port 3000!');
 });
